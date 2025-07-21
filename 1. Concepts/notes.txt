@@ -1,0 +1,12 @@
+Object Oriented Programming:
+"An organized method of writing codes."
+It involves:
+1. Classes                             |   2. Objects                                   |   3. Methods
+Class is like a blueprint for the      |   Objects are the entities in the world.       |   These are the functions
+entities.                              |                                                |   written in the classes
+                                       |                                                |   for the properties.
+For example:
+Toyota Car company have created a blueprint for the other cars building to follow that particular blueprint.
+So, the blueprint is the class and the other cars which have to follow that blueprint are called the objects.
+
+
