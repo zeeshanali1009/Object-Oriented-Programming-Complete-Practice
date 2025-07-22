@@ -1,3 +1,9 @@
+// 1. Encapsulation:
+// It is the process of wrapping up the data members and member functions in a single unit class.
+// Data Properties    +    Member Functions    = Class
+// Uses:
+// Data Hiding (Used to improve the security)
+// It is the process of making the sensitive member/member function private/protected.
 #include <iostream>
 using namespace std;
 class BankAccount {
