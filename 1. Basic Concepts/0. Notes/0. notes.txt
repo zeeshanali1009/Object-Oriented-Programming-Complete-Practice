@@ -227,6 +227,28 @@ A obj1;                                      be accessing it all. I mean all the
     cout << obj2.x << endl;
 
 
+Friend Function
+
+A friend function is a non-member function that can access a class’s private and protected members.
+It is declared using the keyword "friend" inside the class.
+It helps in operator overloading and external utility functions.
+Not a class member, but still has special access.
+
+Friend Class
+
+A friend class can access the private/protected members of another class.
+It allows full access to the internals of the target class.
+Declared using the "friend class" keyword.
+
+
+Key Points:
+Friendship is not mutual.
+Friendship is not inherited.
+Use it carefully to avoid breaking encapsulation.
+
+
+
+
 
 
 
