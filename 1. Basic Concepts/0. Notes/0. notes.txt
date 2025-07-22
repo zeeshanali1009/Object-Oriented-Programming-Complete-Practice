@@ -103,6 +103,18 @@ int x = 10;                                                                *(thi
 int * ptr = x;        * = dereferncing operater
 *ptr                  *ptr will print the 10
 
+
+Destructor:
+it is the opposite of the constructor.
+Destructot deallocates the static memory. for dynamic memory deallocation we use the delete keyword.
+Properties:
+Same name as the class, but preceded by a tilde ~
+No return type, not even void
+No parameters (cannot be overloaded)
+New for dynamic memory creation while delete for the dynamic memory deallocation. So, it saves us from the memory leackage as the dynamic memory staays untill we use the 
+delete keyword.
+In case of inheritance the object of derive class is destroyed first then the object of parent class is destroyed.
+
 Pillars of OOP:
 1. Encapsulation.
 2. Inheritance.
@@ -115,6 +127,26 @@ Data Properties    +    Member Functions    = Class
 Uses:
 Data Hiding (Used to improve the security)
 It is the process of making the sensitive member/member function private/protected.
+
+
+2. Inheritance:
+When properties and member functions of the base class are passed on to the derived class. The process is called the Inheritance.
+For example:
+Class A     -----------------------  Class B
+Parent Class                         Child Class
+Base Class                           Derived Class
+Lets dive deep:
+Whenever the object of derived class is created then the constructor of base class is created first then the constructor of derived class is called.
+
+Mode of Inheritance:
+-----------------------------------------------------------------------------------------------------------------------
+Base Class             |        Private             |        Protected             |          Public
+-----------------------------------------------------------------------------------------------------------------------
+Private                |        not inherited       |        not inherited         |         not inherited
+Protected              |        Private             |        Protected             |         Protected
+Public                 |        Private             |        Protected             |         Public
+
+Types of Inheritance:
 
 
 
