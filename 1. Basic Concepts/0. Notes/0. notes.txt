@@ -184,6 +184,48 @@ Properties:
 Dynamic in nature.
 Defined by keyword "virtual" inside the base class and are always declared with the base class and overriden in derived class.
 
+4. Abstraction:
+Hiding all the unnecessary details and showing the only required/necessary part.
+Abstraction differs from the data hiding as the abstraction shows some part of the data as well.
+ 
+Abstract Classes:
+Abstract classes are used to provide the base classes from which the other classses can be derived.
+They cannot be instantiated and are meant to be inherited.
+Abstract classes are typically used to define a format or interface for the derived classes.
+
+
+
+Static Keyword:
+Variables declared as static in a function are created & initialized once for the lifetime of the program. (In function)
+Static variables in a class are created & initialized once. They are shared by all the objects of the class. (In class)
+Let dive deep:
+Suppose an example:
+void func(){                                          In this case everytime func() is called           
+    static int x =0 ;                                 As there is the memory allocation in the stack
+    cout << x << endl;                                 |          |
+    x++;                                               |          |
+}                                                      |  func()  |         everytime func() is created and deleted 
+    func();                                            |          |         again and again whenever there is the funcion call.
+    func();
+    func();
+    func();
+
+but if we add the keyword static to the function
+    static int x = 0;                                   there is no everytime creation and updation everytime
+                                                        so if we add the keyword static there is the creation for only 
+                                                        single time.
+Now we will be discussing it in the classes as well:
+class A{                                          
+    public:                                  Here actually the both of the objects are going towards the 
+    int x;                                   different memory locations that is why they are giving different values.
+};                                           But in case of static the variable x will be same for all the objects. they will
+A obj1;                                      be accessing it all. I mean all the objects will be accessing it 
+    obj1.x = 10;
+    cout << obj1.x << endl;
+    A obj2;
+    obj2.x = 100;
+    cout << obj2.x << endl;
+
 
 
 
