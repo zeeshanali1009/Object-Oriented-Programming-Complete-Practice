@@ -1,0 +1,43 @@
+Object Oriented Programming:
+"An organized method of writing codes."
+It involves:
+--------------------------------------------------------------------------------------------------------------------
+1. Classes                             |   2. Objects                                   |   3. Methods
+Class is like a blueprint for the      |   Objects are the entities in the world.       |   These are the functions
+entities.                              |                                                |   written in the classes
+                                       |                                                |   for the properties.
+---------------------------------------------------------------------------------------------------------------------
+For example:
+Toyota Car company have created a blueprint for the other cars building to follow that particular blueprint.
+So, the blueprint is the class and the other cars which have to follow that blueprint are called the objects.
+
+Access Modifiers:
+--------------------------------------------------------------------------------------------------------------------
+1. Private                             |   2. Public                                   |   3. Protected
+Data & member functions are            |   Data and methods are accessible             |                           
+accessible only inside the class.      |   to everyone.                                |    Data & methods are 
+                                       |   to everyone.                                |    accessible only inside 
+                                       |                                               |    class & its derived 
+                                       |                                               |     class.
+---------------------------------------------------------------------------------------------------------------------
+
+Setters & Getters:
+Setters and getters are very important as they help us to access the private members/member functions easily out of
+the class aswell.
+
+Pillars of OOP:
+1. Encapsulation.
+2. Inheritance.
+3. Polymorphism
+4. Abstraction.
+
+1. Encapsulation:
+It is the process of wrapping up the data members and member functions in a single unit class.
+Data Properties    +    Member Functions    = Class
+Uses:
+Data Hiding (Used to improve the security)
+It is the process of making the sensitive member/member function private/protected.
+
+
+
+
