@@ -147,6 +147,43 @@ Protected              |        Private             |        Protected          
 Public                 |        Private             |        Protected             |         Public
 
 Types of Inheritance:
+1. Single Inheritance
+One derived class inherits from one base class.
+2. Multilevel Inheritance
+A class inherits from a class, which itself inherits from another class (chain of inheritance).
+3. Multiple Inheritance
+A single class inherits from two or more base classes.
+4. Hierarchical Inheritance
+Multiple classes inherit from the same single base class.
+5. Hybrid Inheritance 
+A combination of two or more types of inheritance (for example:  multiple + hierarchical).
+
+
+3. Polymorphism:
+it is the ability of objects to take on different forms or behave in different ways depending upon the context in which they are used.
+Types of Polymorphism:
+1. Compile Time Polymorphism 
+for example (Constructor Overloading, Function Overloading & Operater Overloading)
+Constructor Overloading: 
+Multiple constructors in the same class with different sets of parameters.
+It allows object creation in different ways, depending on available data.
+Function Overloading: 
+Same function name but with different parameters (number or type). It happens at compile time.
+Allows us to define multiple versions of a function to handle different data types or scenarios.
+Operater Overloading:
+Using operators (like +, -, etc.) with user-defined types (objects).
+Allows intuitive use of operators with objects.
+2. Run-time Polymorphism
+for example ( Function Overriding )
+Function Overriding:
+A child class redefines a function from its base class. Requires a virtual keyword in base class.
+It supports dynamic behavior, especially when using base class pointers.
+Virtual Funtion:
+Virtual Function is a member function  that you expect to be redefined in derived class.
+Properties:
+Dynamic in nature.
+Defined by keyword "virtual" inside the base class and are always declared with the base class and overriden in derived class.
+
 
 
 
