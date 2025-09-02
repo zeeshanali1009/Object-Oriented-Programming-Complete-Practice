@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class hometask
+{
+	private:
+		int marks;
+		char grade;
+	public:
+		void set(int m)
+		{
+			marks = m;
+		}
+		void get()
+		{
+			cout << "Marks: " << marks << endl;
+		}
+			void set1( char g)
+		{
+			grade = g;
+		}
+		void get1()
+		{
+			cout << "Grade: " << grade << endl;
+		}
+};
+int main()
+{
+	hometask h;
+	h.set(200);
+	h.get(); 
+	h.set1('a');
+	h.get1();
+}
