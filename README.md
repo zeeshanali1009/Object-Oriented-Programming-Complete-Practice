@@ -15,7 +15,7 @@ I have covered all the possible concepts related to the object oriented programm
                         3. Polymorphism 
                         4. Abstraction
             
-2. Semesteral Practice
+2. Semesteral Practice (I learned all the below lessons and practices them in the university.)
         1. Assignments 
         2. Class Tasks 
         3. Lab 
